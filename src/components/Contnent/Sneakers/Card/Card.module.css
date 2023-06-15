@@ -1,0 +1,70 @@
+.card {
+    border: 1px solid #F3F3F3;
+    padding: 30px;
+    flex: 1 1 ;
+    width: 210px;
+    height: 260px;
+    border-radius: 40px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+}
+
+.favourite {
+    position: absolute;
+    cursor: pointer;
+}
+
+.cardImage {
+    width: 133px;
+    height: 112px;
+}
+
+.cardName {
+    font-weight: 400;
+    font-size: 14px;
+    width: 150px;
+}
+
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardPrice {
+    display: flex;
+    flex-direction: column;
+}
+
+.priceTitle {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+
+.priceValue {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.addButton {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.add {
+    width: 11px;
+    height: 11px;
+}

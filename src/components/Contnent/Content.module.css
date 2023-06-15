@@ -1,0 +1,43 @@
+.content {
+    padding: 40px;
+}
+
+.carousel {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.contentWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    max-width: 960px;
+}
+
+.contentTitle {
+    margin-left: 20px;
+}
+
+.searchString {
+    border: 1px solid #F3F3F3;
+    display: flex;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+.searchInput {
+    border: 0;
+    padding: 13px;
+    font-size: 16px;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    width: 200px;
+}
+
+.searchInput::placeholder {
+    color: #C4C4C4;
+    ;
+}
